@@ -1,5 +1,4 @@
-Flask>= 3.0.0
-gunicorn>=21.2.0
+
 import os, re, urllib.parse, urllib.request
 from flask import Flask, abort, jsonify, render_template, request
 
